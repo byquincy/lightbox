@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
 body {
     margin: 0;
 
     height: 100vh;
 
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(22, 2, 22);
 }
 
 #container {
@@ -17,24 +19,26 @@ body {
 }
 
 #show-lightbox {
-    background-color: orange;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
     box-shadow: none;
     cursor: pointer;
 
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 5rem;
 
     font-weight: bold;
     font-size: large;
 
     padding: 1rem;
 
-    transition: .1s ease-in-out;
+    transition: 0.2s ease;
 }
 #show-lightbox:hover{
-    box-shadow: white 0px 7px 29px 0px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 29px 0px;
 }
 
 .bright-text {
     color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
 }
